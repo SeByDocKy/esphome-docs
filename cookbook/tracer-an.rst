@@ -1129,7 +1129,7 @@ tracer-settings.yaml
         modbus_controller_id: epever
         id: working_time_length_2
         address: 0x903F
-        name: "Working_time length 1"
+        name: "Working_time length 2"
         register_type: holding
         accuracy_decimals: 0
         value_type: U_WORD
