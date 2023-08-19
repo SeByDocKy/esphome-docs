@@ -116,9 +116,9 @@ A new I2C address can be set (for multi-probes cases for example)
 
     # in some trigger
     on_...:
-      - sensor.pmwcs3_id.newi2caddress:
+      - sensor.pmwcs3_id.new_i2c_address:
           id: pmwcs3_id
-          newaddress: 0x65
+          address: 0x65
 
 Configuration options:
 
