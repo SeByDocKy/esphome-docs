@@ -15,11 +15,13 @@ Component/Hub
     gp8403:
       id: my_gp8403
       voltage: 5V
+      gp8413: False
 
 Configuration variables:
 
 - **id** (*Optional*, :ref:`config-id`): Manually specify the ID used for code generation.
-- **voltage** (**Required**, voltage): The output voltage range of the DAC. Must be one of ``5V`` or ``10V``.
+- **voltage** (**Required**, voltage): The output voltage range of the DAC. Must be one of ``5V`` or ``10V``
+- **gp8413** (*Optional*, gp8413): True to select the 15 bits gp8413 model. False (default) for the 12 bits gp8403
 
 Output
 ------
